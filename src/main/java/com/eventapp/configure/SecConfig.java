@@ -1,5 +1,7 @@
 package com.eventapp.configure;
 
+
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
@@ -10,7 +12,7 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
-import com.eventapp.service.EventService;
+//import com.eventapp.service.EventService;
 @EnableWebSecurity
 public class SecConfig extends WebSecurityConfigurerAdapter{
 
@@ -18,7 +20,7 @@ public class SecConfig extends WebSecurityConfigurerAdapter{
 	private MyAuthEntryPoint myAuthEntryPoint;
 	
 	@Autowired
-	private EventService eventService;
+	//private EventService eventService;
 	
 	//auth
 	@Override

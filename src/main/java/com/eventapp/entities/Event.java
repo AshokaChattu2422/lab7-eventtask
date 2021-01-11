@@ -1,5 +1,6 @@
 package com.eventapp.entities;
 
+import java.time.LocalDate;
 import java.util.List;
 
 import javax.persistence.Column;
@@ -114,6 +115,11 @@ public class Event {
 	}
 
 	public String getPassword() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public LocalDate getEventDate() {
 		// TODO Auto-generated method stub
 		return null;
 	}	
